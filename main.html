@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d1007cab54.js" crossorigin="anonymous"></script>
+    <title>Master Mind</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h2 class="master">Master</h2>
+        <h2 class="mind">Mind </h2>
+        <h2 class="game">Game</h2>
+    </div>
+    <div class="main-board">
+        <div class="secret">
+
+            <button id="s-0" class="btn-secret"></button>
+            <button id="s-1" class="btn-secret"></button>
+            <button id="s-2" class="btn-secret"></button>
+            <button id="s-3" class="btn-secret"></button>
+            <div class="sec-cover">
+                <h3>Secret Color</h3>
+            </div>
+        </div>
+
+        <div class="win">
+            <h1>CONGRADULATIONS!!!</h1>
+            <h2>YOU HAVE WON THE GAME</h2>
+            <button class="btn-win">Restart</button>
+        </div>
+        <div class="lose">
+            <h1>Try Again</h1>
+            <h2>YOU HAVE LOSS THE GAME</h2>
+            <button class="btn-win">Restart</button>
+        </div>
+
+        <div class="main">
+            <div class="row">
+                <div class="row-pattern">
+                    <button class="btn row-active"></button>
+                    <button class="btn row-active"></button>
+                    <button class="btn row-active"></button>
+                    <button class="btn row-active"></button>
+
+                </div>
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+                <div class="row-pattern">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+
+
+            </div>
+
+            <div class="main-submit">
+                <button id="g0" class="check-submit check-active">
+                    <i class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g1" class="check-submit check-active">
+                    <i class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g2" class="check-submit check-active">
+                    <i class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g3" class="check-submit check-active">
+                    <i id="i3" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g4" class="check-submit check-active">
+                    <i id="i4" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g5" class="check-submit check-active">
+                    <i id="i5" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g6" class="check-submit check-active">
+                    <i id="i6" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g7" class="check-submit check-active">
+                    <i id="i7" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g8" class="check-submit check-active">
+                    <i id="i8" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+                <button id="g9" class="check-submit check-active">
+                    <i id="i9" class="fa-solid fa-circle-check fa-2x"></i>
+                </button>
+
+
+            </div>
+
+            <div class="hints">
+                <div class="hint">
+                    <button class="btn-hint hint-active"></button>
+                    <button class="btn-hint hint-active"></button><br>
+                    <button class="btn-hint hint-active"></button>
+                    <button class="btn-hint hint-active"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+
+                <div class="hint">
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button><br>
+                    <button class="btn-hint"></button>
+                    <button class="btn-hint"></button>
+                </div>
+            </div>
+
+            <div class="colors">
+                <button id="btn-blue" class="color"></button>
+                <button id="btn-green" class="color"></button>
+                <button id="btn-orange" class="color"></button>
+                <button id="btn-yellow" class="color"></button>
+                <button id="btn-black" class="color"></button>
+                <button id="btn-pink" class="color"></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script src="jquery1.js"></script>
+
+
+</html>
